@@ -43,7 +43,7 @@
         <button
           class="w-full text-sm py-2 text-lightest hover text-white border-b border-light opacity-75 hover:opacity-100"
         >
-          Log Out
+        <router-link to="/auth-page">Log Out</router-link>
         </button>
       </div>
     </div>

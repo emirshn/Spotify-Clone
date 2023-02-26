@@ -7,12 +7,13 @@
         <div
           class="bg-green rounded-full h-10 w-10 flex items-center justify-center"
         >
-        <button>
-          <i class="material-symbols-outlined text-white text-2xl"
-            >play_arrow</i
-          >
-        </button>
-          
+          <button>
+            <a :href="plist.external_urls.spotify" target="”_blank”" >
+              <i class="material-symbols-outlined text-white text-2xl"
+                >play_arrow</i
+              ></a
+            >
+          </button>
         </div>
       </div>
       <div class="bg-light w-full h-auto p-5 rounded-lg shadow-md">

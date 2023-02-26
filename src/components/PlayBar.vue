@@ -102,7 +102,7 @@ export default {
       const spotifyApi = new SpotifyWebApi();
       spotifyApi.setAccessToken(localStorage.getItem('access_token'));
       await this.$store.dispatch('spotify/skipToPrevious').then((res) => {
-        console.log("tested",res);
+        console.log('tested', res);
         this.track = this.$store.getters['spotify/currentTrack'];
       });
       console.log(this.track);
